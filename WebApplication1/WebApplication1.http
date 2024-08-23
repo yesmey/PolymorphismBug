@@ -1,0 +1,25 @@
+﻿@HostAddress = http://localhost:5130
+
+GET {{HostAddress}}/api/test/Fail
+
+###
+
+POST {{HostAddress}}/api/test/FailPost
+
+###
+
+GET {{HostAddress}}/api/test/Ok1
+
+###
+
+GET {{HostAddress}}/api/test/Ok2
+
+###
+
+GET {{HostAddress}}/api/test/Ok3
+
+###
+
+GET {{HostAddress}}/api/test/Ok4
+
+###
